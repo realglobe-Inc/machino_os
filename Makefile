@@ -24,4 +24,4 @@ recent: $(OBJS) recent.o
 
 .PHONY: clean
 clean:
-	rm by_date recent *.o
+	-rm by_date recent *.o
